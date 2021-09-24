@@ -17,7 +17,7 @@ export const CardsGifs = ({gifProps}) => {
           // <div className="col-3">
           //   <Card key={img.id} {...img}/>
           // </div>
-          <div className="col-3">
+          <div className="col-3" key={img.id}>
             <Card {...img} />
           </div>
         ))
